@@ -112,7 +112,7 @@ app.post("/submitFormData", (req, res) => {
 
 
 app.get("/getOrganizations/:userId", (req, res) => {
-  const userId = req.query.userId;
+  const userId = req.params.userId;
 
   // Define parameters for DynamoDB query
   const params = {
@@ -169,7 +169,7 @@ app.get("/getAllUserIDs", (req, res) => {
 
 // GET route to retrieve all fields based on user ID
 app.get("/getUserData/:userId", (req, res) => {
-  const userId = req.query.userId;
+  const userId = req.params.userId;
 
   // Define parameters for DynamoDB query
   const params = {

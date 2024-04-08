@@ -5,7 +5,7 @@
       { "src": "/submitFormData", "dest": "/server.js" },
       { "src": "/getAllUserIDs", "dest": "/server.js" },
       { "src": "/getOrganizations/:userId", "dest": "/server.js" },
-      { "src": "/getUserData/99", "dest": "/server.js" }
+      { "src": "/getUserData/222", "dest": "/server.js" }
     ]
   }
   
