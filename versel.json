@@ -1,0 +1,9 @@
+{
+    "routes": [
+      { "src": "/submitFormData", "dest": "/server.js" },
+      { "src": "/getAllUserIDs", "dest": "/server.js" },
+      { "src": "/getOrganizations/:id", "dest": "/server.js" },
+      { "src": "/getUserData/:id", "dest": "/server.js" }
+    ]
+  }
+  
